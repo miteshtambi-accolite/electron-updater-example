@@ -1,0 +1,60 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add cross env
+
+PATH: 
+  C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\miteshkumar.tambi\workspace\youtube-dl;C:\Program Files\Git\cmd;C:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.5\sbin;C:\Users\miteshkumar.tambi\apache-maven-3.5.3\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\mybatis\mybatis-migrations-3.3.4\bin;C:\Program Files\Microsoft VS Code\bin;C:\ProgramData\chocolatey\bin;C:\Users\miteshkumar.tambi\AppData\Local\Microsoft\WindowsAp;C:\Program Files\Git\mingw64\bin\;C:\Program Files\PuTTY\;C:\Python27;C:\Hadoop\bin;C:\Program Files (x86)\Symantec\VIP Access Client\;%NVM_HOME%;%NVM_SYMLINK%;C:\Program Files (x86)\Yarn\bin\;C:\Users\miteshkumar.tambi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\miteshkumar.tambi\Documents\WindowsPowerShell\Scripts;C:\Users\miteshkumar.tambi\Downloads\kafka_2.12-2.2.0\bin\windows;C:\Users\miteshkumar.tambi\AppData\Roaming\npm;C:\nvm;C:\Program Files\nodejs;C:\Users\miteshkumar.tambi\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.8.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND maven.vpn.etonreve.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+
+npm manifest: 
+  {
+    "name": "electron-updater-example",
+    "version": "0.8.1",
+    "main": "main.js",
+    "description": "electron-updater example project",
+    "author": "Matt Haggard",
+    "scripts": {
+      "dev": "cross-env NODE_ENV=development electron .",
+      "build": "electron-builder build --win --publish never",
+      "deploy": "electron-builder build --win --publish always"
+    },
+    "devDependencies": {
+      "electron": "^7.1.8",
+      "electron-builder": "^21.2.0"
+    },
+    "dependencies": {
+      "electron-log": "^4.0.3",
+      "electron-updater": "^4.2.0"
+    },
+    "build": {
+      "appId": "com.github.miteshtambi-accolite.electronupdaterexample",
+      "mac": {
+        "category": "your.app.category.type",
+        "target": [
+          "zip",
+          "dmg"
+        ]
+      }
+    },
+    "repository": {
+      "type" : "git",
+      "url" : "https://github.com/miteshtambi-accolite/electron-updater-example.git"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
